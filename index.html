@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Крестики Нолики</h1>
+    <div class="container">
+        <div class="sidebar">
+            <button class="connectionBtn">Присоединиться</button>
+            <button class="createBtn" onclick>Создать</button>
+            <div class="gamesContainer">
+                <div class="gamesTitle">Доступные игры:</div>
+                <ul>
+                    <li tabindex="0">нет игр</li>
+                </ul>
+            </div>
+            <button class="joinBtn">Войти</button>
+            
+        </div>
+        <div class="mainbar">
+            <div class="scoreContainer">
+                <div class="scoreHead">Счёт:</div>
+                <div class="scoreCounterX">X: 0</div>
+                <div class="scoreCounterO" >O: 0</div>
+            </div>
+            <div class="board">
+            </div>
+        </div>
+    </div>
+    <script src="server/client.js"></script>  
+</body>
+</html>
